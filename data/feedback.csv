@@ -1,0 +1,31 @@
+id,date,customer_name,product,rating,review,category
+1,2024-01-05,Alice Martin,Laptop Pro,5,"Absolutely love this laptop! Fast, reliable and the battery lasts all day. Best purchase I've made.",Electronics
+2,2024-01-07,Bob Chen,Wireless Headphones,4,"Great sound quality and comfortable to wear. Noise cancellation could be better but overall very happy.",Electronics
+3,2024-01-09,Carol White,Coffee Maker,2,"Stopped working after 2 weeks. Very disappointed with the build quality. Customer support was slow.",Appliances
+4,2024-01-12,David Brown,Running Shoes,5,"Perfect fit and incredibly comfortable. My running performance has improved noticeably. Highly recommend!",Footwear
+5,2024-01-15,Emma Davis,Smart Watch,3,"Average product. Nothing special. The app crashes occasionally and the strap feels cheap.",Electronics
+6,2024-01-18,Frank Lee,Yoga Mat,5,"Excellent grip and cushioning. Durable and easy to clean. Worth every penny!",Sports
+7,2024-01-20,Grace Kim,Blender,1,"Terrible product. Leaks badly and motor is very noisy. Returned it immediately.",Appliances
+8,2024-01-22,Henry Wilson,Backpack,4,"Sturdy and spacious. Lots of compartments. Shoulder straps are comfortable even when fully loaded.",Accessories
+9,2024-01-25,Iris Johnson,Desk Lamp,5,"Beautiful design and adjustable brightness. The USB charging port is super handy. Love it!",Home
+10,2024-01-28,Jack Thompson,Gaming Mouse,4,"Responsive and precise. Feels great in hand. The software could use some polish though.",Electronics
+11,2024-02-01,Karen Moore,Air Purifier,5,"Works wonderfully. My allergies have improved significantly since I started using it. Quiet operation.",Appliances
+12,2024-02-04,Leo Martinez,Tablet,2,"Slow performance and poor camera quality. Expected much more for the price. Very unsatisfied.",Electronics
+13,2024-02-06,Mia Anderson,Resistance Bands,5,"Fantastic quality and versatile. Great for home workouts. The instruction guide is very helpful.",Sports
+14,2024-02-09,Noah Taylor,Office Chair,4,"Comfortable and adjustable. My back pain has reduced. Assembly was a bit tricky but worth it.",Furniture
+15,2024-02-12,Olivia Harris,Skincare Set,5,"My skin looks amazing after just one week. The products smell wonderful and feel luxurious.",Beauty
+16,2024-02-15,Paul Jackson,Bluetooth Speaker,3,"Decent sound but battery drains quickly. Pairing is sometimes unreliable. Average product overall.",Electronics
+17,2024-02-18,Quinn White,Kitchen Knife Set,5,"Exceptionally sharp and well balanced. Beautiful presentation box. A joy to cook with.",Kitchen
+18,2024-02-20,Rachel Green,Fitness Tracker,1,"Inaccurate readings and terrible app. Heart rate monitor doesn't work properly. Complete waste of money.",Electronics
+19,2024-02-23,Sam Clark,Pillow Set,4,"Very comfortable and supportive. Good value for money. Packaging was slightly damaged on arrival.",Home
+20,2024-02-26,Tina Lewis,Protein Powder,5,"Great taste and mixes well. I've noticed real improvement in my recovery time after workouts.",Health
+21,2024-03-01,Uma Patel,Sunglasses,4,"Stylish and provides good UV protection. Lightweight and comfortable for long wear.",Accessories
+22,2024-03-04,Victor Scott,Electric Toothbrush,5,"My dentist noticed the improvement at my last checkup! Very effective cleaning. Quiet motor.",Health
+23,2024-03-07,Wendy Adams,Cookbook,3,"Some good recipes but many are too complicated for everyday cooking. Photos are nice though.",Books
+24,2024-03-10,Xander Brown,Gaming Headset,2,"Poor microphone quality and uncomfortable after extended use. Sound is okay but not great.",Electronics
+25,2024-03-13,Yara Singh,Ceramic Pots,5,"Beautiful and functional. Durable and the non-stick surface works perfectly. Perfect for my kitchen.",Kitchen
+26,2024-03-16,Zoe Turner,Jump Rope,4,"Great quality and perfect weight. Handles are comfortable. Good for cardio workouts.",Sports
+27,2024-03-19,Aaron Hall,Standing Desk,5,"Transformed my work from home setup. Easy to assemble and very sturdy. My productivity has improved!",Furniture
+28,2024-03-22,Beth Young,Face Mask Pack,2,"Caused skin irritation and redness. Not suitable for sensitive skin. Misleading product description.",Beauty
+29,2024-03-25,Carl King,Wireless Charger,4,"Charges quickly and works with all my devices. Sleek design fits nicely on my desk.",Electronics
+30,2024-03-28,Diana Wright,Running Jacket,5,"Perfect for all weather conditions. Lightweight yet warm. The reflective strips are a great safety feature.",Footwear
