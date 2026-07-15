@@ -1,135 +1,94 @@
-# 💬 Customer Feedback Dashboard
+# 📊 Sales Dashboard
 
-A beautiful, interactive dashboard for analysing customer feedback using **TextBlob** (NLP sentiment analysis), **Plotly** (interactive charts), and **Streamlit** (web UI).
+An interactive sales analytics dashboard built with **Streamlit**, **Pandas**, and **Plotly** — designed to visualize sales performance, trends, and key metrics in a clean, easy-to-use interface.
+
+🔗 **Live App:** [sanskritivadher-sales-dashboard-app-cssejs.streamlit.app](https://sanskritivadher-sales-dashboard-app-cssejs.streamlit.app/)
 
 ---
 
-## 📁 Project Structure
+## 🚀 Features
+
+- 📈 Interactive visualizations (line charts, bar charts, pie charts) powered by Plotly
+- 🔍 Filter sales data by date, region, product category, or other dimensions
+- 📋 Summary metrics (total sales, growth rate, top products, etc.)
+- 🧮 Clean, modular codebase for easy customization
+- ☁️ Deployed live via Streamlit Community Cloud
+
+---
+
+## 🗂️ Project Structure
 
 ```
-customer_feedback_dashboard/
+sales-dashboard/
 │
-├── app.py                  ← Main Streamlit application
-├── sentiment_utils.py      ← TextBlob sentiment analysis utilities
-├── requirements.txt        ← Python dependencies
-├── README.md               ← This file
-│
-└── data/
-    └── feedback.csv        ← Sample dataset (30 reviews)
+├── app.py                 # Main Streamlit application
+├── utils/                 # Helper functions and data processing modules
+│   └── ...
+├── data/                  # Sample sales dataset (CSV)
+│   └── sales_data.csv
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation
 ```
 
 ---
 
-## ✅ Prerequisites
+## 🛠️ Tech Stack
 
-- Python **3.9 – 3.12** installed
-- VS Code installed
-- Terminal / Command Prompt access
-
----
-
-## 🚀 Step-by-Step Setup & Execution
-
-### Step 1 — Open the project in VS Code
-
-```
-File → Open Folder → select  customer_feedback_dashboard/
-```
-
-### Step 2 — Open the VS Code terminal
-
-```
-Terminal → New Terminal   (or  Ctrl + ` )
-```
-
-### Step 3 — Create a virtual environment
-
-**Windows**
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-**macOS / Linux**
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-> You should see `(venv)` at the start of your terminal prompt.
-
-### Step 4 — Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-> This installs Streamlit, Plotly, TextBlob, NLTK, WordCloud, and Matplotlib.
-> First install may take 1–2 minutes.
-
-### Step 5 — Run the dashboard
-
-```bash
-streamlit run app.py
-```
-
-### Step 6 — View in browser
-
-Streamlit will print:
-
-```
-  Local URL:  http://localhost:8501
-  Network URL: http://192.168.x.x:8501
-```
-
-Open **http://localhost:8501** in your browser — the dashboard loads automatically.
+- **Python**
+- **Streamlit** – web app framework
+- **Pandas** – data manipulation
+- **Plotly** – interactive charts
 
 ---
 
-## 🎛️ Features
+## 💻 Running Locally
 
-| Feature | Description |
-|---|---|
-| **Sentiment Analysis** | TextBlob polarity + subjectivity per review |
-| **KPI Cards** | Total reviews, avg rating, % positive/negative, avg polarity |
-| **Pie Chart** | Sentiment distribution |
-| **Bar Chart** | Rating distribution (1–5 stars) |
-| **Area Chart** | Sentiment polarity trend over time |
-| **Horizontal Bar** | Avg rating per category, coloured by polarity |
-| **Scatter Plot** | Polarity vs Subjectivity bubble chart |
-| **Grouped Bar** | Sentiment breakdown by category |
-| **Word Cloud** | Most frequent keywords across reviews |
-| **Product Leaderboard** | Dual-axis chart: avg rating + polarity |
-| **Review Cards** | Individual reviews with badges + scores |
-| **Filters** | Category · Sentiment · Rating · Date range |
-| **Upload CSV** | Drop in your own data |
-| **Export** | Download enriched CSV with sentiment scores |
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/SanskritiVadher/sales-dashboard.git
+   cd sales-dashboard
+   ```
 
----
+2. **Create and activate a virtual environment** (recommended)
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate      # Windows
+   source venv/bin/activate   # macOS/Linux
+   ```
 
-## 📄 CSV Format (for your own data)
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Your CSV must have these columns:
+4. **Run the app**
+   ```bash
+   streamlit run app.py
+   ```
 
-```
-id, date, customer_name, product, rating, review, category
-```
-
-- `date` — any parseable date string (e.g. `2024-03-15`)
-- `rating` — integer 1–5
-- `review` — free text
-- `category` — product category label
+5. Open the local URL shown in your terminal (usually `http://localhost:8501`)
 
 ---
 
-## 🛑 Stop the app
+## 📊 Sample Data
 
-Press **Ctrl + C** in the terminal.
+The dashboard uses a sample sales dataset located in the `data/` folder. You can replace this with your own CSV file, as long as the column structure matches what `app.py` expects.
 
 ---
 
-## 💡 Tips
+## 🌐 Deployment
 
-- Edit `data/feedback.csv` to add your own reviews and restart the app.
-- The sidebar lets you filter by category, sentiment, rating, and date range.
-- Use the **Download CSV** button to export the enriched data with sentiment scores.
+This app is deployed using **Streamlit Community Cloud**. Any changes pushed to the `main` branch on GitHub are automatically reflected on the live app within a minute or two.
+
+---
+
+## 🙋‍♀️ Author
+
+**Sanskriti Vadher**
+Built as part of a Vibe Coding workshop project.
+
+---
+
+## 📄 License
+
+This project is open-source and available for learning and personal use.
