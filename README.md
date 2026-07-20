@@ -2,7 +2,7 @@
 
 An interactive sales analytics dashboard built with **Streamlit**, **Pandas**, and **Plotly** — designed to visualize sales performance, trends, and key metrics in a clean, easy-to-use interface.
 
-🔗 **Live App:** [sanskritivadher-sales-dashboard-app-cssejs.streamlit.app](https://sanskritivadher-sales-dashboard-app-cssejs.streamlit.app/)
+🔗 **Live App:** [https://sanskritivadher-customer-feedback-dashboard-app-0hzopz.streamlit.app/]
 
 ---
 
